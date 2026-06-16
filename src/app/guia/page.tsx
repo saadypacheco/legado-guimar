@@ -166,14 +166,11 @@ export default function GuiaPage() {
               { icon: '🤖', name: 'Guimar AI — Mentor Virtual', desc: 'Inteligencia artificial entrenada con su conocimiento, disponible 24 horas' },
               { icon: '🎙️', name: 'Podcast & Documental', desc: 'Sus historias en audio y video, para profesionales de todo el mundo' },
               { icon: '🗺️', name: 'Google Maps del Conocimiento', desc: 'Mapa interactivo con cada proyecto y país donde Guimar trabajó' },
-              { icon: '⏳', name: 'Time Machine Energética', desc: 'La IA recrea escenarios históricos con el criterio de Guimar' },
               { icon: '🎓', name: 'Academia Petrolera', desc: 'Cursos online de exploración, producción, liderazgo y negociación' },
               { icon: '⚙️', name: 'Petroleum Copilot LATAM', desc: 'Plataforma IA para empresas y gobiernos: reservas, producción y escenarios' },
               { icon: '💼', name: 'Advisory Board', desc: 'Su criterio como servicio: due diligence y mentoría ejecutiva' },
               { icon: '📚', name: 'Biblioteca de Errores Millonarios', desc: 'Errores reales de la industria que la IA enseña a evitar' },
-              { icon: '🎬', name: 'Reality Show Ejecutivo', desc: 'Simulación filmada donde profesionales toman decisiones reales y Guimar veredicta' },
               { icon: '🎮', name: 'Simulador Ejecutivo Petrolero', desc: 'Videojuego profesional basado en casos históricos reales' },
-              { icon: '🎬', name: 'Netflix del Petróleo', desc: 'Biblioteca audiovisual con suscripción para profesionales del sector' },
               { icon: '🏛️', name: 'Museo Petrolero Digital', desc: 'Recorrido inmersivo por la historia energética latinoamericana' },
             ].map((p, i) => (
               <div key={p.name} className="flex items-start gap-4 bg-white border border-[#D97706]/12 rounded-xl px-4 py-3.5 shadow-sm">
@@ -189,7 +186,7 @@ export default function GuiaPage() {
 
           <div className="mt-8 bg-[#D97706]/10 border border-[#D97706]/20 rounded-2xl p-5 text-center">
             <p className="text-[#7C3A00] text-sm font-semibold">
-              14 productos. Todos nacen de la misma fuente: las historias de Guimar.
+              11 productos. Todos nacen de la misma fuente: las historias de Guimar.
             </p>
           </div>
         </Block>
