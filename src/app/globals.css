@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #060300;
+  color: #ffffff;
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #060300;
+}
+::-webkit-scrollbar-thumb {
+  background: #92400E;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D97706;
+}
+
+@layer utilities {
+  .text-amber-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-amber-500 to-amber-600;
+  }
+  .glass-card {
+    background: rgba(10, 7, 0, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(217, 119, 6, 0.12);
+  }
+  .glow-amber {
+    box-shadow: 0 0 40px rgba(217, 119, 6, 0.25);
+  }
+}
