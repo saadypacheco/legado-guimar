@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Para Marcos — Cómo presentarle el proyecto a Guimar',
+  title: 'Guía — Proyecto Legado Guimar',
 }
 
 export default function GuiaPage() {
@@ -9,33 +9,19 @@ export default function GuiaPage() {
       <div className="bg-[#D97706] px-6 py-4 flex items-center gap-3">
         <div className="w-2.5 h-2.5 bg-white rounded-full" />
         <span className="text-white font-black tracking-wider text-sm">
-          LEGADO GUIMAR — Guía para Marcos
+          LEGADO GUIMAR — Guía del Proyecto
         </span>
       </div>
 
       <div className="max-w-2xl mx-auto px-6 py-14">
 
-        {/* Intro badge */}
-        <div className="inline-flex items-center gap-2 bg-[#D97706]/12 border border-[#D97706]/30 rounded-full px-4 py-2 mb-10">
-          <span className="w-2 h-2 bg-[#D97706] rounded-full" />
-          <span className="text-[#92400E] text-sm font-semibold">
-            Esto es para vos, Marcos — para que puedas explicarle el proyecto a Guimar
-          </span>
-        </div>
-
         {/* Block 1 */}
-        <Block
-          num="01"
-          title="Lo que tiene Guimar es único"
-        >
+        <Block num="01" title="Lo que tiene Guimar es único">
           <P>
             Guimar tiene algo que muy pocas personas en el mundo tienen.
           </P>
           <P>
-            No es dinero. No es una casa. Es algo que no se puede comprar.
-          </P>
-          <P>
-            Son <strong>50 años trabajando en el petróleo</strong>. En Bolivia, en Argentina, en Venezuela, en países de todo el mundo. Negociando con gobiernos. Descubriendo campos petroleros. Tomando decisiones que movían millones de dólares.
+            Son <strong>50 años trabajando en la industria del petróleo</strong>. En distintos países del mundo. Negociando con gobiernos. Descubriendo campos petroleros. Tomando decisiones que movían millones de dólares.
           </P>
           <P>
             Ese conocimiento está en su cabeza. En su memoria. En sus historias.
@@ -53,15 +39,19 @@ export default function GuiaPage() {
             La idea es muy simple: <strong>Guimar habla. Nosotros grabamos.</strong>
           </P>
           <P>
-            No le pedimos que escriba un libro. No le pedimos un esfuerzo enorme. Solo que cuente sus historias. Como si estuviera tomando un café con un amigo.
+            Si Guimar quiere escribir un libro, este proyecto es exactamente el camino para lograrlo. No hay que sentarse a escribir desde una hoja en blanco. Las conversaciones que vamos a tener <strong>son el libro</strong>. Guimar habla, nosotros organizamos, y de ahí sale el libro, más un archivo digital, más mucho más. Es la forma más natural y poderosa de hacerlo.
           </P>
           <QuoteBox>
             "¿Cómo fue ese proyecto en Venezuela?"<br />
-            "¿Qué hiciste cuando los precios del petróleo cayeron?"<br />
-            "¿Cuál fue la decisión más difícil que tomaste?"
+            "¿Qué viviste trabajando en el Medio Oriente?"<br />
+            "¿Qué harías hoy diferente en aquella negociación?"<br />
+            "¿Cuáles fueron los momentos que más te marcaron?"
           </QuoteBox>
           <P>
-            Eso es todo lo que necesitamos al principio. Vos hacés las preguntas, Marcos. Grabás la conversación. Y con eso arrancamos.
+            Guimar ha trabajado en muchos lugares del mundo. Cada uno tiene una historia. Esas son las preguntas. Las respuestas son el tesoro.
+          </P>
+          <P>
+            Se graba la conversación. Y con eso arrancamos.
           </P>
         </Block>
 
@@ -75,23 +65,23 @@ export default function GuiaPage() {
 
           <StepCard
             icon="📖"
-            title="Un libro digital"
-            desc="La historia de Guimar, en palabras de Guimar. Con fotos, con mapas, con los países donde estuvo. Algo que su familia, sus amigos y los ingenieros jóvenes puedan leer."
+            title="El libro — en las palabras de Guimar"
+            desc="La historia de Guimar, tal como él la cuenta. Con fotos, con mapas, con los países donde estuvo. Un libro real, impreso y digital, que puede leer su familia, sus amigos y los profesionales de la industria en todo el mundo."
           />
           <StepCard
             icon="🤖"
             title="Una inteligencia artificial que piensa como Guimar"
-            desc='Cualquier ingeniero joven en Bolivia va a poder preguntarle a una computadora: "¿Cómo evaluarías este proyecto?" Y la computadora responde con el criterio y la experiencia de Guimar. Como si él estuviera ahí.'
+            desc='Cualquier ingeniero en cualquier parte del mundo va a poder preguntar: "¿Cómo evaluarías este proyecto?" Y el sistema responde con el criterio y la experiencia de Guimar. Como si él estuviera ahí, disponible siempre.'
           />
           <StepCard
             icon="🗺️"
-            title="Un museo digital"
-            desc="Todos los proyectos de Guimar en un mapa del mundo. Hacés click en Bolivia y ves qué hizo ahí. Hacés click en Venezuela y ves sus documentos, sus fotos, sus decisiones."
+            title="Un museo digital de su trayectoria"
+            desc="Todos los proyectos de Guimar en un mapa del mundo. Hacés click en cualquier país y ves qué hizo ahí: documentos, fotos, decisiones. Un recorrido por 50 años de historia de la industria."
           />
           <StepCard
             icon="🎙️"
             title="Un podcast con sus historias"
-            desc="Sus experiencias en audio, disponibles para ingenieros de Argentina, Bolivia, Venezuela y más países donde Guimar dejó huella."
+            desc="Sus experiencias en audio, disponibles para ingenieros y profesionales de cualquier lugar del mundo que quieran aprender de alguien que estuvo ahí de verdad."
           />
 
           <P>Y hay muchas cosas más que podemos construir con el tiempo.</P>
@@ -105,25 +95,22 @@ export default function GuiaPage() {
             Porque este tipo de conocimiento no espera.
           </P>
           <P>
-            Guimar vivió cosas que nadie más vivió. Tomó decisiones que nadie más tomó. Ese conocimiento, si no lo capturamos hoy, se pierde. Y sería una pérdida enorme para la industria del petróleo en toda Latinoamérica.
+            Guimar vivió cosas que nadie más vivió. Tomó decisiones que nadie más tomó. Ese conocimiento, si no lo capturamos hoy, se pierde. Y sería una pérdida enorme para la industria del petróleo en todo el mundo.
           </P>
           <Highlight>
-            Los ingenieros jóvenes de Bolivia, Argentina y Venezuela necesitan a alguien como Guimar. Y nosotros podemos hacer que Guimar esté disponible para ellos, para siempre.
+            Los ingenieros jóvenes de cualquier lugar del mundo necesitan a alguien como Guimar. Y nosotros podemos hacer que Guimar esté disponible para ellos, para siempre.
           </Highlight>
         </Block>
 
         <Divider />
 
         {/* Block 5 */}
-        <Block num="05" title="¿Qué le pedimos a Guimar?">
+        <Block num="05" title="¿Qué necesitamos de Guimar?">
           <P>
-            Muy poco al principio.
+            Necesitamos su tiempo para contar sus historias.
           </P>
           <P>
-            <strong>Una o dos horas a la semana</strong>, cuando quiera y tenga ganas. Sentado cómodo, en su silla. Contando historias.
-          </P>
-          <P>
-            Marcos va a estar con él para hacer las preguntas. Va a grabar la conversación. Y eso es todo.
+            Sentado cómodo, cuando quiera y tenga ganas. Sin apuro. Sin estructura rígida. Contando lo que vivió, lo que aprendió, lo que haría diferente.
           </P>
           <P>
             El resto lo hacemos nosotros.
@@ -133,12 +120,24 @@ export default function GuiaPage() {
         <Divider />
 
         {/* Block 6 */}
-        <Block num="06" title="¿Qué va a quedar cuando esto esté terminado?">
+        <Block num="06" title="¿En qué idioma?">
+          <P>
+            El proyecto puede desarrollarse en el idioma que Guimar prefiera.
+          </P>
+          <P>
+            Si quiere que su legado llegue a ingenieros de habla inglesa, lo hacemos en inglés. Si quiere llegar a toda Latinoamérica, en español. Si quiere los dos, los dos. El conocimiento de Guimar no tiene fronteras, y este proyecto tampoco.
+          </P>
+        </Block>
+
+        <Divider />
+
+        {/* Block 7 */}
+        <Block num="07" title="¿Qué va a quedar cuando esto esté terminado?">
           <P>
             Va a quedar el nombre de Guimar. Su voz. Su conocimiento.
           </P>
           <P>
-            Disponible para siempre, para ingenieros de todo el mundo.
+            Disponible para siempre, para profesionales de todo el mundo.
           </P>
           <P>
             Va a quedar una plataforma que sigue generando valor aunque no estemos.
@@ -152,11 +151,9 @@ export default function GuiaPage() {
           </div>
         </Block>
 
-        {/* Footer note */}
+        {/* Footer */}
         <div className="mt-16 pt-8 border-t border-[#D97706]/20 text-center">
-          <p className="text-[#92400E]/60 text-sm">
-            Proyecto Legado Guimar — 2026
-          </p>
+          <p className="text-[#92400E]/60 text-sm">Proyecto Legado Guimar — 2026</p>
           <a
             href="/"
             className="inline-flex items-center gap-2 mt-4 text-[#D97706] font-semibold text-sm hover:underline"
