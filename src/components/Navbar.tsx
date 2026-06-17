@@ -8,6 +8,11 @@ const links = [
   { label: 'Ideas', href: '#ideas' },
 ]
 
+const ctaLinks = [
+  { label: 'La Predicción', href: '/prediccion' },
+  { label: 'Guimar AI', href: '/guimar-ai' },
+]
+
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -45,9 +50,20 @@ export default function Navbar() {
           ))}
         </div>
 
-        <div className="flex items-center gap-1.5">
-          <div className="w-1.5 h-1.5 bg-[#D97706]/40 rounded-full" />
-          <div className="w-1 h-1 bg-[#D97706]/20 rounded-full" />
+        <div className="flex items-center gap-2">
+          {ctaLinks.map(l => (
+            <a
+              key={l.label}
+              href={l.href}
+              className={`text-xs font-bold px-3 py-1.5 rounded-full transition-all ${
+                l.href === '/guimar-ai'
+                  ? 'bg-[#D97706] hover:bg-[#B45309] text-white shadow-md shadow-[#D97706]/20'
+                  : 'border border-[#D97706]/30 text-[#FBBF24] hover:border-[#D97706]/60 hover:text-white'
+              }`}
+            >
+              {l.label}
+            </a>
+          ))}
         </div>
       </div>
     </nav>
