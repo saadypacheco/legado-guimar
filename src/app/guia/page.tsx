@@ -125,7 +125,7 @@ export default function GuiaPage() {
             El proyecto puede desarrollarse en el idioma que Guimar prefiera.
           </P>
           <P>
-            Si quiere que su legado llegue a ingenieros de habla inglesa, lo hacemos en inglés. Si quiere llegar a toda Latinoamérica, en español. Si quiere los dos, los dos. El conocimiento de Guimar no tiene fronteras, y este proyecto tampoco.
+            Si quiere que su legado llegue a ingenieros de habla inglesa, lo hacemos en inglés. Si quiere llegar a toda Latinoamérica, en español. Si quiere los dos, los dos.
           </P>
         </Block>
 
@@ -184,9 +184,12 @@ export default function GuiaPage() {
             ))}
           </div>
 
-          <div className="mt-8 bg-[#D97706]/10 border border-[#D97706]/20 rounded-2xl p-5 text-center">
-            <p className="text-[#7C3A00] text-sm font-semibold">
+          <div className="mt-8 bg-[#D97706]/10 border border-[#D97706]/20 rounded-2xl p-5">
+            <p className="text-[#7C3A00] text-sm font-semibold text-center mb-3">
               11 productos. Todos nacen de la misma fuente: las historias de Guimar.
+            </p>
+            <p className="text-[#7C3A00]/80 text-sm text-center">
+              Esta lista no es definitiva. Podemos quitar productos, modificarlos o agregar nuevos — lo que se construya depende de lo que Guimar quiera dejar como legado.
             </p>
           </div>
         </Block>
